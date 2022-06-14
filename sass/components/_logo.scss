@@ -1,0 +1,26 @@
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+  padding-top: 25px;
+  padding-bottom: 24px;
+  margin-right: 93px;
+}
+
+.logo-firstpart {
+  color: var(--accent-color-blue);
+}
+
+.top-header .logo {
+  color: #000000;
+}
+
+.footer .logo {
+  color: #ffffff;
+  display: inline-block;
+  margin-bottom: 20px;
+  padding-top: 0;
+  padding-bottom: 0;
+}

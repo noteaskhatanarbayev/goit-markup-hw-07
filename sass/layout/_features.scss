@@ -1,0 +1,28 @@
+.features-bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+}
+.features-icons {
+  display: block;
+  background-position: center;
+}
+
+.features-item {
+  width: 270px;
+}
+.features-list {
+  display: flex;
+}
+
+.features-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.features-desc {
+  font-size: 14px;
+  line-height: 1.7;
+}
