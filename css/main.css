@@ -70,12 +70,12 @@ body {
   padding-right: 15px;
 }
 
-.features-section {
+.features_container {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.work-section {
+.work__container {
   padding-bottom: 94px;
   /* padding-top: 94px; */
 }
@@ -187,7 +187,7 @@ body {
   background: var(--accent-color-blue);
 }
 
-.hero-title {
+.hero__title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -201,7 +201,7 @@ body {
   margin-bottom: 30px;
 }
 
-.features-title {
+.features__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
@@ -210,7 +210,7 @@ body {
   color: var(--title-text-color-black);
 }
 
-.work-section-title {
+.work__subtitle {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -288,6 +288,9 @@ body {
   text-decoration: none;
   padding-top: 25px;
   padding-bottom: 24px;
+}
+
+.top-header__logo {
   margin-right: 93px;
 }
 
@@ -302,9 +305,12 @@ body {
 .footer .logo {
   color: #ffffff;
   display: inline-block;
-  margin-bottom: 20px;
   padding-top: 0;
   padding-bottom: 0;
+}
+
+.footer__logo {
+  margin-bottom: 20px;
 }
 
 .backdrop {
@@ -460,7 +466,7 @@ body {
   border-bottom: 1px solid #ececec;
 }
 
-.top-header .container {
+.top-header__container {
   display: flex;
   align-items: center;
 }
@@ -514,17 +520,17 @@ body {
   color: var(--accent-color-blue);
 }
 
-.contacts-list {
+.contacts {
   display: flex;
   margin-left: auto;
 }
 
-.contacts-item:not(:last-child) {
+.contacts__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.contact-mail,
-.contact-tel {
+.contacts__mail,
+.contacts__tel {
   display: flex;
   font-style: inherit;
   font-weight: 500;
@@ -539,27 +545,27 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-tel:hover .contact-tel-icon,
-.contact-tel:focus .contact-tel-icon {
+.contacts__tel:hover .contacts__tel__icon,
+.contacts__tel:focus .contacts__tel__icon {
   fill: var(--accent-color-blue);
 }
 
-.contact-tel:hover,
-.contact-tel:focus {
+.contacts__tel:hover,
+.contacts__tel:focus {
   color: var(--accent-color-blue);
 }
 
-.contact-mail:hover .contact-mail-icon,
-.contact-mail:focus .contact-mail-icon {
+.contacts__mail:hover .contacts__mail__icon,
+.contacts__mail:focus .contacts__mail__icon {
   fill: var(--accent-color-blue);
 }
 
-.contact-mail:hover,
-.contact-mail:focus {
+.contacts__mail:hover,
+.contacts__mail:focus {
   color: var(--accent-color-blue);
 }
 
-.contact-mail-icon {
+.contacts__mail__icon {
   display: flex;
   align-items: center;
   margin-right: 10px;
@@ -567,17 +573,17 @@ body {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-mail-icon:hover,
-.contact-mail-icon:focus {
+.contacts__mail__icon:hover,
+.contacts__mail__icon:focus {
   fill: var(--accent-color-blue);
 }
 
-.contact-tel-icon:hover,
-.contact-tel-icon:focus {
+.contacts__tel__icon:hover,
+.contacts__tel__icon:focus {
   fill: var(--accent-color-blue);
 }
 
-.contact-tel-icon {
+.contacts__tel__icon {
   display: flex;
   align-items: center;
   margin-right: 10px;
@@ -585,7 +591,7 @@ body {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero-section {
+.hero {
   max-width: 1600px;
   max-height: 600px;
   margin-right: auto;
@@ -601,7 +607,7 @@ body {
   padding-top: 200px;
 }
 
-.hero-btn {
+.hero__btn {
   display: block;
   background-color: var(--accent-color-blue);
   color: #ffffff;
@@ -622,8 +628,8 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero-btn:hover,
-.hero-btn:focus {
+.hero__btn:hover,
+.hero__btn:focus {
   background-color: #188ce8;
 }
 
@@ -636,35 +642,35 @@ body {
   background-color: #f5f4fa;
 }
 
-.features-icons {
+.features__icons {
   display: block;
   background-position: center;
 }
 
-.features-item {
+.features__item {
   width: 270px;
 }
 
-.features-list {
+.features__list {
   display: flex;
 }
 
-.features-item:not(:last-child) {
+.features__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.features-desc {
+.features__desc {
   font-size: 14px;
   line-height: 1.7;
 }
 
-.work-section-list {
+.work__list {
   display: flex;
   margin-left: -30px;
   margin-top: -30px;
 }
 
-.work-section-item {
+.work__item {
   flex-basis: calc((100% - 90px) / 3);
   margin-left: 30px;
   margin-top: 30px;
@@ -675,7 +681,7 @@ body {
   justify-content: space-between;
   padding-bottom: 94px;
 } */
-.work-section-item {
+.work__item {
   position: relative;
 }
 

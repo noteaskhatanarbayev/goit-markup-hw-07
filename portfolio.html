@@ -22,9 +22,9 @@
   <body>
     <!-- HEADER -->
     <header class="top-header">
-      <div class="container">
+      <div class="container top-header__container">
         <nav class="navigation">
-          <a href="./index.html" class="logo"
+          <a href="./index.html" class="logo top-header__logo"
             ><span class="logo-firstpart">Web</span>Studio</a
           >
           <ul class="site-nav list">
@@ -41,17 +41,17 @@
             </li>
           </ul>
         </nav>
-        <ul class="contacts-list list">
-          <li class="contacts-item">
-            <a class="contact-mail" href="mailto:info@devstudio.com">
-              <svg class="contact-mail-icon" width="16" height="12">
+        <ul class="contacts list">
+          <li class="contacts__item">
+            <a class="contacts__mail" href="mailto:info@devstudio.com">
+              <svg class="contacts__mail__icon" width="16" height="12">
                 <use href="./images/icons.svg#envelope"></use></svg
               >info@devstudio.com</a
             >
           </li>
-          <li class="contacts-item">
-            <a class="contact-tel" href="tel:+380961111111">
-              <svg class="contact-tel-icon" width="16" height="12">
+          <li class="contacts__item">
+            <a class="contacts__tel" href="tel:+380961111111">
+              <svg class="contacts__tel__icon" width="16" height="12">
                 <use href="./images/icons.svg#smartphone"></use></svg
               >+38 096 111 11 11</a
             >
@@ -302,7 +302,7 @@
     <footer class="footer">
       <div class="footer-container container">
         <div class="footer-contacts-container">
-          <a href="./index.html" class="logo"
+          <a href="./index.html" class="logo footer__logo"
             ><span class="logo-firstpart">Web</span>Studio</a
           >
           <address class="studio-address">
@@ -367,7 +367,6 @@
         <div class="footer-form-container">
           <b class="subscription-form-title">подпишись на рассылку</b>
           <form name="subscription-form" class="subscription-form">
-            <label for="mail" class="subscription-form-label">E-mail</label>
             <input
               type="email"
               name="mail"

@@ -1,9 +1,9 @@
-.work-section-list {
+.work__list {
   display: flex;
   margin-left: -30px;
   margin-top: -30px;
 }
-.work-section-item {
+.work__item {
   flex-basis: calc((100% - 90px) / 3);
   margin-left: 30px;
   margin-top: 30px;
@@ -13,7 +13,7 @@
   justify-content: space-between;
   padding-bottom: 94px;
 } */
-.work-section-item {
+.work__item {
   position: relative;
 }
 .work-section-text-container {

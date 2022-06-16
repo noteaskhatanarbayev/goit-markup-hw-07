@@ -6,23 +6,23 @@
   margin-bottom: 30px;
   background-color: #f5f4fa;
 }
-.features-icons {
+.features__icons {
   display: block;
   background-position: center;
 }
 
-.features-item {
+.features__item {
   width: 270px;
 }
-.features-list {
+.features__list {
   display: flex;
 }
 
-.features-item:not(:last-child) {
+.features__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.features-desc {
+.features__desc {
   font-size: 14px;
   line-height: 1.7;
 }
