@@ -81,11 +81,11 @@
   outline-offset: 0;
 
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.subscription-form-input:hover,
-.subscription-form-input:focus {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  &:hover,
+  &:focus {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
 }
 
 .subscription-form input::placeholder {
@@ -116,11 +116,11 @@
   cursor: pointer;
 
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.subscription-form-btn:hover,
-.subscription-form-btn:focus {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  &:hover,
+  &:focus {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
 }
 
 .subscription-form-btn-icon {
