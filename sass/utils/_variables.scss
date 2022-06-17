@@ -5,3 +5,12 @@
   --accent-color-blue: #2196f3;
   --accent-fill: #afb1b8;
 }
+
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  letter-spacing: 0.03em;
+  color: var(--text-color-grey);
+  background-color: #ffffff;
+}

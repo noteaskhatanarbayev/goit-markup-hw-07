@@ -6,6 +6,15 @@
   --accent-fill: #afb1b8;
 }
 
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  letter-spacing: 0.03em;
+  color: var(--text-color-grey);
+  background-color: #ffffff;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -51,15 +60,6 @@ ol {
 
 img {
   display: block;
-}
-
-body {
-  margin: 0;
-  font-family: Roboto, sans-serif;
-  font-style: normal;
-  letter-spacing: 0.03em;
-  color: var(--text-color-grey);
-  background-color: #ffffff;
 }
 
 .container {
