@@ -4,18 +4,17 @@
   margin-top: -30px;
 }
 .work__item {
-  flex-basis: calc((100% - 90px) / 3);
+  position: relative;
   margin-left: 30px;
   margin-top: 30px;
+  flex-basis: calc((100% - 90px) / 3);
 }
 /* .work-section-list {
   display: flex;
   justify-content: space-between;
   padding-bottom: 94px;
 } */
-.work__item {
-  position: relative;
-}
+
 .work-section-text-container {
   position: absolute;
   bottom: 0;
