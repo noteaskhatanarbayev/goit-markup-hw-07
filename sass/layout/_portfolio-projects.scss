@@ -17,9 +17,12 @@
   display: block;
 
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.portfolio-project-link:hover .portfolio-project-overlay-container {
-  opacity: 1;
+
+  &:hover,
+  &:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
 }
 
 .portfolio-project-img-container {
@@ -41,11 +44,11 @@
 
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
     opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.portfolio-project-link:hover .portfolio-project-overlay-container {
-  opacity: 1;
-  transform: translate(0, 0);
+  .portfolio-project-link:hover & {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 .portfolio-project-overlay-text {
@@ -56,11 +59,6 @@
   padding: 63px 24px;
 
   color: #ffffff;
-}
-.portfolio-project-link:hover,
-.portfolio-project-link:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-project-card-text {
