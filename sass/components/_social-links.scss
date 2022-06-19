@@ -1,4 +1,4 @@
-.social-list-link {
+.social-list__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,8 +14,8 @@
     background-color: var(--accent-color-blue);
   }
 
-  &:hover .social-list-icon,
-  &:focus .social-list-icon {
+  &:hover .social-list__icon,
+  &:focus .social-list__icon {
     fill: #ffffff;
   }
 }
