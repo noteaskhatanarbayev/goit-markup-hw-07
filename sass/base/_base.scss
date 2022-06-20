@@ -31,7 +31,7 @@ img {
 }
 body {
   margin: 0;
-  font-family: Roboto, sans-serif;
+  font-family: var(--main-font);
   font-style: normal;
   letter-spacing: 0.03em;
   color: var(--text-color-grey);
