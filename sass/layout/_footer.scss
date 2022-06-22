@@ -9,7 +9,7 @@
   align-items: baseline;
 }
 
-.footer-contacts-container {
+.footer-contacts {
   margin-right: 70px;
 }
 .studio-address {
@@ -20,9 +20,9 @@
   margin-bottom: 9px;
 }
 
-.footer-contact-address,
-.footer-contact-mail,
-.footer-contact-tel {
+.footer-contact_address,
+.footer-contact__mail,
+.footer-contact__tel {
   font-style: inherit;
   font-size: 14px;
   line-height: 1.7;
@@ -30,25 +30,25 @@
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-contact-address {
+.footer-contact_address {
   color: #ffffff;
 }
 
-.footer-social-container {
+.footer-social {
   margin-right: 93px;
 }
 
-.footer-social-list {
+.footer-social__list {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.footer-social-item:not(:last-child) {
+.footer-social__item:not(:last-child) {
   margin-right: 10px;
 }
 
-.footer-social-icon {
+.footer-social__icon {
   width: 20px;
   height: 20px;
   fill: #ffffff;
@@ -66,7 +66,7 @@
   position: absolute;
 } */
 
-.subscription-form-input {
+.subscription-form__input {
   width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -96,7 +96,7 @@
   color: rgba(255, 255, 255, 0.6);
 }
 
-.subscription-form-btn {
+.subscription-form__btn {
   background: var(--accent-color-blue);
   border: 1px solid var(--accent-color-blue);
   border-radius: 4px;
@@ -123,7 +123,7 @@
   }
 }
 
-.subscription-form-btn-icon {
+.subscription-form__icon {
   width: 24px;
   height: 24px;
   margin-left: 10px;

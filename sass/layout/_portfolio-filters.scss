@@ -1,14 +1,14 @@
-.portfolio-filters-list {
+.portfolio-filters__list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
 
-.portfolio-filter-item:not(:last-child) {
+.portfolio-filters__item:not(:last-child) {
   margin-right: 8px;
 }
 
-.portfolio-filter-btn {
+.portfolio-filters__btn {
   cursor: pointer;
   font-family: var(--main-font);
   font-weight: 500;
